@@ -1,0 +1,1 @@
+<view>aaaaaaa</view><uni-popup wx:if="{{e}}" class="r" u-s="{{['d']}}" u-r="alertDialog" u-i="408e8086-0" bind:__l="__l" u-p="{{e}}"><uni-popup-dialog wx:if="{{c}}" bindconfirm="{{a}}" bindclose="{{b}}" u-i="408e8086-1,408e8086-0" bind:__l="__l" u-p="{{c}}"></uni-popup-dialog></uni-popup>

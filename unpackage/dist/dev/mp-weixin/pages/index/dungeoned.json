@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "combat-interface": "./combatInterface",
+    "alert-dialog": "../../components/alertDialog/index"
+  }
+}

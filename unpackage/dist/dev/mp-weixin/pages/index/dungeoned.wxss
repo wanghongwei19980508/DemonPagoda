@@ -1,0 +1,58 @@
+.dungeonedBox {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  width: 100%;
+  background-color: #8cb9b0aa;
+  z-index: 97;
+}
+.dungeonedBox .map_box {
+  display: flex;
+  flex-direction: column;
+}
+.dungeonedBox .map_box .map_content_box {
+  display: flex;
+  flex-direction: row;
+}
+.dungeonedBox .map_box .map_content_box .G_image {
+  width: 68rpx;
+  height: 68rpx;
+}
+.dungeonedBox .choose_box {
+  display: flex;
+}
+.dungeonedBox .choose_box .user_box {
+  width: 300rpx;
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+  background: antiquewhite;
+}
+.dungeonedBox .choose_box .user_box .user_content {
+  margin: 10rpx;
+  background: #fff;
+}
+.dungeonedBox .choose_box .user_box .user_content .p {
+  font-size: 45rpx;
+  line-height: 60rpx;
+}
+.dungeonedBox .choose_box .postion_box {
+  width: 450rpx;
+  height: 500rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+.dungeonedBox .choose_box .postion_box .postion_button {
+  width: 145rpx;
+  height: 246rpx;
+  border: 1px solid #ffffff;
+  color: #1e135a;
+  text-align: center;
+  line-height: 246rpx;
+  font-size: 60rpx;
+}
